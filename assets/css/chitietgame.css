@@ -1,0 +1,77 @@
+.game-detail-container {
+    transform: translateY(60px);
+
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: "Segoe UI", sans-serif;
+}
+
+.game-header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.game-cover {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.game-info {
+    flex: 1;
+}
+
+.game-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2E7D32;
+}
+
+.game-platform,
+.game-release,
+.game-price,
+.game-developer {
+    margin: 6px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.game-description h2,
+.game-trailer h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2E7D32;
+}
+
+.game-description p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.game-trailer iframe {
+    border-radius: 8px;
+}
+
+.add-to-cart-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2E7D32;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart-btn:hover {
+    background-color: #1b5e20;
+}
