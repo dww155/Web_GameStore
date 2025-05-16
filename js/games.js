@@ -7,7 +7,6 @@ $(document).ready(function() {
         dataType: 'json',
         data: { page, search, sort },
         success: function(response) {
-			console.log(response);
 			if (response && Array.isArray(response.games)) {
             // Xóa danh sách cũ
             $('#gameList').empty();

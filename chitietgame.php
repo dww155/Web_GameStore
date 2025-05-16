@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="./assets/css/games.css" />
     <link rel="stylesheet" href="./assets/css/chitietgame.css" />
 <!-- Thêm jQuery từ CDN Google -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
 
 <!-- 
     <?php 
@@ -42,7 +42,7 @@
    
     <div class="game-detail-container">
         <div class="game-header">
-            <img src="./assets/images/sample_cover.jpg" alt="Ảnh bìa game" class="game-cover" />
+            <img src="assets/images/GTA6_wallpaper.jpg" alt="Ảnh bìa game" class="game-cover" />
             <div class="game-info">
                 <h1 class="game-title">Tên Game</h1>
                 <p class="game-platform">Nền tảng: PC / Console</p>
@@ -73,6 +73,7 @@
     <script defer src="./scripts/ScrollbarJS.js"></script>
     <script src="./assets/js/IntroJS.js"></script>
     <script defer src="./js/games.js"></script>
+    <script defer src="./js/chitietgame.js"></script>
 
   </body>
 </html>

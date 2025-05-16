@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./assets/css/FooterCSS_Responsive.css" />
     <link rel="stylesheet" href="./assets/css/games.css" />
 <!-- Thêm jQuery từ CDN Google -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
 
 <!-- 
     <?php 
